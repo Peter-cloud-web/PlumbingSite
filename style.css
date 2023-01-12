@@ -155,6 +155,9 @@ nav .fa{
 }
 .About h1{
     font-family: 'Oswald', sans-serif;   
+    border-bottom: 2px solid rgb(255, 115, 0);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
  }
  .About p{
     color: rgb(39, 39, 39);
@@ -187,6 +190,9 @@ nav .fa{
  }
  .Services h1{
     font-family: 'Oswald', sans-serif; 
+    border-bottom: 2px solid rgb(255, 115, 0);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
  }
  .Services p{
     color: rgb(39, 39, 39);
@@ -231,6 +237,9 @@ nav .fa{
         padding-top: 70px;        
   }
   .Why h2{
+    border-bottom: 2px solid rgb(255, 115, 0);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
     font-family: 'Oswald', sans-serif;   
  }
  .container p{
@@ -241,7 +250,25 @@ nav .fa{
     padding: 10px;
     display: inline-block;
  }
- @media (max-width: 700px) {
+ .Contacts {
+  width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 70px;  
+ }
+ .Contacts h1{
+  font-family: 'Oswald', sans-serif;   
+  border-bottom: 2px solid rgb(255, 115, 0);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.Contacts p{
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  line-height: 22px;
+  padding: 10px;
+}
+ @media (max-width: 600px) {
     .container {
       text-align: center;
     }
@@ -268,12 +295,12 @@ nav .fa{
   box-sizing: border-box; /* make the inputs responsive */
   border: 1px solid #ccc; /* add a light gray border */
   border-radius: 4px; /* round the corners of the inputs */
-  font-size: 16px; /* set the font size */
+  font-size: 14px; /* set the font size */
 }
 
 /* Form labels */
 #email-form label {
-  font-size: 18px; /* set the font size */
+  font-size: 1px; /* set the font size */
   margin-bottom: 8px; /* add some margin */
 }
 
@@ -289,15 +316,17 @@ nav .fa{
 }
 #email-form input[type="submit"] {
   width: 100%; /* make the button take up the full width of the form container */
-  background-color: #4CAF50; /* green background color */
+  background-color: #081027; /* green background color */
   color: white; /* white text color */
   padding: 14px 20px; /* increase the button size */
   margin: 8px 0; /* center the button */
   border: none; /* remove the border */
   border-radius: 25px; /* add rounded edges */
   cursor: pointer; /* change the cursor to a pointer */
-  font-size: 18px; /* increase the font size */
-  text-align: center; /* center the text */
+  font-size: 14px; 
+  font-weight: bold;/* increase the font size */
+  text-align: center;
+  font-family: 'Oswald', sans-serif;  /* center the text */
 }
 @media (max-width: 600px) {
   /* Form container */
@@ -348,5 +377,17 @@ footer a:hover {
 }
 footer ul {
   list-style-type: none; /* remove the list indicators */
+}
+@media (max-width: 600px) {
+  footer .col-sm {
+    flex-wrap: wrap; /* wrap the columns on small screens */
+  }
+  footer .col-sm h4 {
+    margin-bottom: 10px;
+    width: 100%; /* make the heading take up the full width of the column */
+  }
+  footer .col-sm ul {
+    width: 100%; /* make the list take up the full width of the column */
+  }
 }
 
