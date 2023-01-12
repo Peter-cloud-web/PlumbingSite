@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body, html {
+  overflow-x: hidden!important;
+  width: auto!important;
+  }
 .logo-1{
     position: absolute;
     padding: 3% 3%;
@@ -247,4 +251,102 @@ nav .fa{
     }
   }
 
+  /* Form container */
+#email-form {
+  width: 50%; /* adjust as needed */
+  margin: 0 auto; /* center the form */
+  padding: 20px; /* add some padding */
+  background-color: #f5f5f5; /* light gray background color */
+  border-radius: 10px; /* round the corners */
+}
+
+/* Form inputs */
+#email-form input[type="text"], #email-form input[type="email"], #email-form textarea {
+  width: 100%; /* make the inputs take up the full width of the form container */
+  padding: 12px 20px; /* add some padding */
+  margin: 8px 0; /* add some margin */
+  box-sizing: border-box; /* make the inputs responsive */
+  border: 1px solid #ccc; /* add a light gray border */
+  border-radius: 4px; /* round the corners of the inputs */
+  font-size: 16px; /* set the font size */
+}
+
+/* Form labels */
+#email-form label {
+  font-size: 18px; /* set the font size */
+  margin-bottom: 8px; /* add some margin */
+}
+
+/* Submit button */
+#email-form input[type="submit"] {
+  width: 100%; /* make the button take up the full width of the form container */
+  background-color: #4CA
+}
+#email-form textarea {
+  min-height: 200px; /* minimum height */
+  max-height: 400px; /* maximum height */
+  /* other styles */
+}
+#email-form input[type="submit"] {
+  width: 100%; /* make the button take up the full width of the form container */
+  background-color: #4CAF50; /* green background color */
+  color: white; /* white text color */
+  padding: 14px 20px; /* increase the button size */
+  margin: 8px 0; /* center the button */
+  border: none; /* remove the border */
+  border-radius: 25px; /* add rounded edges */
+  cursor: pointer; /* change the cursor to a pointer */
+  font-size: 18px; /* increase the font size */
+  text-align: center; /* center the text */
+}
+@media (max-width: 600px) {
+  /* Form container */
+  #email-form {
+    width: 90%; /* adjust the width to take up less space */
+  }
+  /* Form inputs */
+  #email-form input[type="text"], #email-form input[type="email"], #email-form textarea {
+    font-size: 14px; /* decrease the font size */
+  }
+  /* Form labels */
+  #email-form label {
+    font-size: 16px; /* decrease the font size */
+  }
+  /* Submit button */
+  #email-form input[type="submit"] {
+    font-size: 16px; /* decrease the font size */
+    padding: 12px; /* decrease the button size */
+  }
+}
+footer {
+  background-color: rgb(13, 14, 24);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+footer .col-sm {
+  flex: 1;
+}
+footer h4 {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer ul {
+  list-style-type: none; /* remove the list indicators */
+}
 
