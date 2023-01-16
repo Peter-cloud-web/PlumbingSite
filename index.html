@@ -260,10 +260,10 @@
           $mailHeaders = "Name :" .$name ."\r\nEmail :" .$email
           ."\r\nSubject :" .$subject ."\r\nMessage :" .$message ."\r\n";
 
-          if(mail($toEmail,$name,$mailHeaders)){
-            &message = "Information received successfully"
-          }
+          if(mail($toEmail, $subject, $message, $mailHeaders)){
+            $message = "Information received successfully";
         }
+    }
         ?>
 
     </body>
