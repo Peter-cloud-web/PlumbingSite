@@ -249,16 +249,16 @@
         </script>
 
         <?php
-        if(!empty(&_POST["send"])){
-
-          $name = &_POST["name"];
-          $email = &_POST["email"];
-          $subject = &_POST["subject"];
-          $message = &_POST["message"];
-          $toEmail = &_POST["petergichia164@gmail.com"];
-
+        if(!empty($_POST["send"])){
+        
+          $name = $_POST["name"];
+          $email = $_POST["email"];
+          $subject = $_POST["subject"];
+          $message = $_POST["message"];
+          $toEmail = "petergichia164@gmail.com";
+        
           $mailHeaders = "Name :" .$name ."\r\nEmail :" .$email
-          ."\r\nSubject :" .$subject .\r\nMessage :" .$message" ."\r\n";
+          ."\r\nSubject :" .$subject ."\r\nMessage :" .$message ."\r\n";
 
           if(mail($toEmail,$name,$mailHeaders)){
             &message = "Information received successfully"
