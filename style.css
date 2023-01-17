@@ -310,17 +310,12 @@ nav .fa {
   margin-bottom: 8px; /* add some margin */
 }
 
-/* Submit button */
-#email-form input[type="submit"] {
-  width: 100%; /* make the button take up the full width of the form container */
-  background-color: #4ca;
-}
 #email-form textarea {
   min-height: 200px; /* minimum height */
   max-height: 400px; /* maximum height */
   /* other styles */
 }
-#email-form input[type="submit"] {
+#email-form button[type="submit"] {
   width: 100%; /* make the button take up the full width of the form container */
   background-color: #081027; /* green background color */
   color: white; /* white text color */
@@ -349,12 +344,8 @@ nav .fa {
   #email-form label {
     font-size: 16px; /* decrease the font size */
   }
-  /* Submit button */
-  #email-form input[type="submit"] {
-    font-size: 16px; /* decrease the font size */
-    padding: 12px; /* decrease the button size */
-  }
 }
+  /* Submit button */
 footer {
   background-color: rgb(13, 14, 24);
   color: #fff;
