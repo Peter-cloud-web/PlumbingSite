@@ -191,9 +191,11 @@
       
 
         <form action="https://formsubmit.co/petergichia164@gmail.com"" method="POST" id="email-form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
 
           <label for="subject">Subject(Required)</label>
-          <input type="text" id="name" name="name" placeholder="Write the subject of your inquiry" required>
+          <input type="text" id="name" name="subject" placeholder="Write the subject of your inquiry" required>
         
           <label for="email">Email (Required):</label>
           <input type="email" id="email" name="email" placeholder="Your email address" required>
