@@ -17,6 +17,13 @@ html {
   background-size: cover;
   position: relative;
 }
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 10px;
+
+}
 .menu {
   display: flex;
   position: fixed;
